@@ -228,3 +228,77 @@ Flip Card Styling
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+/*===============================
+
+
+Contact Page
+
+
+================================*/
+
+.contact-form {
+  background: rgb(255, 204, 204);
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 40px;
+  color: white;
+  font-family: sans-serif;
+  margin: 40px auto;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.submit {
+  background: white;
+  color: white;
+  display: inline;
+  border-radius: 30px;
+}
+
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+textarea {
+  font-family: sans-serif;
+  padding: 15px 25px;
+  border-radius: 30px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.pseudo {
+  color: #9f9696;
+  font-size: 18px;
+}
+
+.pseudo p:nth-child(2) {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.pseudo p:first-line{
+  color: rgb(255, 204, 204);
+}
+
+.pseudo p:first-of-type:before {
+  content: "The journey's just begun!";
+  background: #9f9696;
+  font-weight: bold;
+  color: White;
+}
+
+.pseudo p::selection {
+  color: #9f6953;
+}
