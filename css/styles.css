@@ -248,6 +248,11 @@ Blog Page
   padding: 75px;
 }
 
+.all-blogs h3 a{
+  text-decoration: none;
+  color: #9f6953;
+}
+
 .individual-blog {
   width: 300px;
   display: inline-block;
@@ -261,6 +266,36 @@ Blog Page
 .individual-blog h3 {
   font-size: 20px;
 }
+/*===============================
+
+
+Camping Blog
+
+
+================================*/
+.camping-head {
+  padding: 20px;
+}
+
+.camping-top {
+  padding: 20px;
+  text-align: left;
+}
+
+.camping-top a{
+  text-decoration: none;
+  color: #9f6953
+}
+
+.camping-bottom {
+  float: right;
+  padding: 20px;
+}
+
+.more-button {
+  padding: 25px;
+}
+
 /*===============================
 
 
