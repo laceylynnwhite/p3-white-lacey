@@ -168,6 +168,26 @@ About Page
   padding: 50px 150px;
 }
 
+.about-bottom {
+  padding-top: 75px;
+}
+
+.about-bottom-right {
+  padding: 50px 150px;
+  text-align: left;
+}
+
+.button-bottom img {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.standout {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 204, 204);
+}
 /*===============================
 
 
