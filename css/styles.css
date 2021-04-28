@@ -41,18 +41,19 @@ p {
 hr {width: 750px;margin-left: auto;margin-right: auto;height: 1px;background-color:#9f9696;opacity: 0.75;}
 
 
-footer {
-  background: #9f9696;
-  color: rgb(255, 204, 204);
-  text-align: center;
-  padding: 30px 0;
-  margin-top: 50px
-}
-
 .container {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
+}
+
+footer {
+  background: #9f9696;
+  color: rgb(255, 204, 204);
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 50px;
 }
 /*===============================
 
@@ -129,7 +130,7 @@ Home Page Sections
 /*===============================
 
 
-Blog Section
+Blog Section Home
 
 
 ================================*/
@@ -232,7 +233,34 @@ Flip Card Styling
 .flip-card-back {
   transform: rotateY(180deg);
 }
+/*===============================
 
+
+Blog Page
+
+
+================================*/
+.blog-title {
+  padding-top: 15px;
+}
+
+.all-blogs {
+  padding: 75px;
+}
+
+.individual-blog {
+  width: 300px;
+  display: inline-block;
+  padding: 25px 0;
+}
+
+.individual-blog img {
+  width: 250px;
+}
+
+.individual-blog h3 {
+  font-size: 20px;
+}
 /*===============================
 
 
