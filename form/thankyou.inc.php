@@ -64,7 +64,7 @@
 <div class="container">
   <h1>Thanks for stopping by!</h1>
   <p>I have received your message and will be in touch soon!</p>
-  <img class="contact" src="images/contact.PNG" alt="contact" title="contact" />
+  <img class="footer-logo" src="images/footer-logo.png" alt="logo" title="logo" />
 </div>
 
 <footer>

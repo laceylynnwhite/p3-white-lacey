@@ -266,6 +266,10 @@ Blog Page
 .individual-blog h3 {
   font-size: 20px;
 }
+
+.individual-blog h3 a:hover{
+  color: rgb(255, 204, 204);
+}
 /*===============================
 
 
@@ -299,7 +303,26 @@ Camping Blog
 .more-button {
   padding: 25px;
 }
+/*===============================
 
+
+Tacos Blog
+
+
+================================*/
+.top-tacos {
+  padding: 25px;
+}
+/*===============================
+
+
+Siberian Husky Blog
+
+
+================================*/
+.top-husky {
+  padding: 25px;
+}
 /*===============================
 
 
