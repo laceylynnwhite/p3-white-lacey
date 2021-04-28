@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /*===============================
 
 
@@ -6,8 +12,30 @@ Universal Styling
 
 ================================*/
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+/*===============================
+
+
+Header Styling
+
+
+================================*/
+
+header {
+background: white;
+padding: 20px;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 0 15 px;
+}
+
+header nav a {
+  font-family: 'Belleza', sans-serif;
+  text-decoration: none;
+  color: #9f6953;
+}
+
+header nav a:hover {
+  color: rgb(255, 204, 204);
 }
