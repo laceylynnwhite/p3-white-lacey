@@ -1,9 +1,13 @@
+/*===============================
+
+
+Universal Styling
+
+
+================================*/
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
-}
-
-h1  {
-  font-family: 'Belleza', sans-serif;
 }
