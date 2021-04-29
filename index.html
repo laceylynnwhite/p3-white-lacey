@@ -23,11 +23,16 @@
 
     <!--CSS -->
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
 
     <!-- FAVIcon -->
     <link rel="icon" type="image/ico" href="images/favicon.ico" />
 
     <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <script
+    src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   </head>
 
   <body>
@@ -81,19 +86,19 @@
         <div class="blogs">
             <h3><a href="blog.html">Check out my blogs!</a></h3>
             <div class="blog">
-              <img src="images/camping.jpg" alt="camping" title="camping" />
+              <a href="images/camping.jpg" data-lightbox="image-1" data-title="My first camping trip with my best friends."><img src="images/camping.jpg" alt="camping" title="camping" /></a>
               <h3><a href="camping.html">Lacey Goes Camping</a></h3>
               <p>Check out some shenanigans from my very first camping trip!</p>
             </div>
 
             <div class="blog">
-              <img src="images/tacos.jpg" alt="tacos" title="tacos" />
+              <a href="images/tacos.jpg" data-lightbox="image-1" data-title="Taco's My Friend is superior."><img src="images/tacos.jpg" alt="tacos" title="tacos" /></a>
               <h3><a href="tacos.html">Best Tacos of Lakeland</a></h3>
               <p>My top recommended tacos found in or around Lakeland, FL.</p>
             </div>
 
             <div class="blog">
-              <img src="images/luna.jpg" alt="luna" title="luna" />
+              <a href="images/luna.jpg" data-lightbox="image-1" data-title="This is my baby girl, Luna."><img src="images/luna.jpg" alt="luna" title="luna" /></a>
               <h3><a href="husky.html">Parenting Huskies 101</a></h3>
               <p>Here's the real scoop on being a fur mom of Siberian Huskies.</p>
             </div>
@@ -105,6 +110,6 @@
     <footer>
       <p>Website by Lacey White</p>
     </footer>
-
+    <script src="lightbox/src/js/lightbox.js"></script>
   </body>
 </html>
