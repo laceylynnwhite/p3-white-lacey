@@ -323,6 +323,16 @@ Siberian Husky Blog
 .top-husky {
   padding: 25px;
 }
+
+.husky-top {
+  text-align: left;
+  padding: 25px;
+}
+
+.husky-top a{
+  text-decoration: none;
+  color: #9f6953
+}
 /*===============================
 
 
