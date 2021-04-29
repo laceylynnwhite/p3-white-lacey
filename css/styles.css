@@ -193,6 +193,28 @@ About Page
   font-weight: bold;
   color: rgb(255, 204, 204);
 }
+
+
+.balloon {
+  position: absolute;
+  width: 100px;
+  top: 100px;
+  left: -50px;
+  animation-name: drive;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes drive {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(2500px);
+  }
+}
 /*===============================
 
 
